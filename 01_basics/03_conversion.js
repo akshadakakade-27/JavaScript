@@ -1,13 +1,13 @@
 let age =35
-console.log(typeof age);
+// console.log(typeof age);
 let score ="35abc"
-console.log(typeof score)
+// console.log(typeof score)
 let valueInnum= Number(age)
-console.log( typeof  valueInnum)
-console.log(valueInnum)
+// console.log( typeof  valueInnum)
+// console.log(valueInnum)
 let valin = Number(score)
-console.log( score)
-console.log(valin)
+// console.log( score)
+// console.log(valin)
 /*
 Number(....)
 "33"- 33
@@ -21,5 +21,13 @@ null - 0
  String(....)
 */
 let st=String(age)
-console.log(st )
-console.log( typeof st)
+// console.log(st )
+// console.log( typeof st)
+
+// +======================== operations =======================================
+// + , - , * ,**, / , %
+
+console.log(1+"2")
+console.log("1"+2)
+console.log("1"+2+2) // 1st string then all strings 
+console.log(1+2+"2")// last string then 1st numbers
